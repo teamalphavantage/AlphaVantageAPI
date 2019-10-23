@@ -1,5 +1,10 @@
 module AlphaVantage
 
-greet() = print("Hello World!")
+# include -
+include("Include.jl")
+
+# export functions -
+# ...
+
 
 end # module
