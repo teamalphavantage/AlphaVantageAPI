@@ -1,0 +1,4 @@
+name = "AlphaVantage"
+uuid = "af488c52-797a-4a83-9497-bc13c7d99564"
+authors = ["Jeffrey Varner <jdv27@cornell.edu>"]
+version = "0.1.0"
