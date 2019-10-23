@@ -1,11 +1,8 @@
 function http_get_call_with_url(url::String)::String
 
     # check: is the URL string empty?
-    # ...
-
     # check: is it a legit URL string?
-    # ...
-
+    
     # ok, so we are going to make a HTTP GET call with the URL that was passed in -
     response = HTTP.request("GET",url)
 
