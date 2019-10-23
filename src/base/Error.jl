@@ -1,4 +1,4 @@
-function is_path_valid(path_to_file::String)
+function _is_path_valid(path_to_file::String)
 
     # the config file should be a json file, and should be reachable -
     # TODO: fill me in ...
@@ -10,7 +10,7 @@ function is_string_empty(raw_string::String)::Bool
 end
 
 """
-    is_valid_json(raw_string::String)::Bool
+    _is_valid_json(raw_string::String)::Bool
 
 Checks to see if the input string is a valid JSON structure. Returns true indicating valid JSON, false otherwise.
 
@@ -23,7 +23,7 @@ julia> is_valid_json(test_data)
 true
 ```
 """
-function is_valid_json(raw_string::String)::Bool
+function _is_valid_json(raw_string::String)::Bool
 
     # check: do we have an empty string?
     if (is_string_empty(raw_string) == true)

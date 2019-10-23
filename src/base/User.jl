@@ -10,7 +10,7 @@ struct APIUserModel
     end
 end
 
-function check_if_user_dictionary_contains_correct_keys(user_data_dictionary::Dict{String,Any})
+function _check_if_user_dictionary_contains_correct_keys(user_data_dictionary::Dict{String,Any})
 
     # the user dictionary should contain a user_data root, and a alpha_vantage_api_key child -
     # TODO: fill me in ...
@@ -21,7 +21,7 @@ function build_api_user_model(path_to_configuration_file::String)::APIUserModel
 
     # some users checks -
     # did the user pass in a legit path?
-    if (is_path_valid(path_to_configuration_file) == false)
+    if (_is_path_valid(path_to_configuration_file) == false)
         throw(error("error: $(path_to_configuration_file) in not a valid path"))
     end
 
@@ -29,7 +29,7 @@ function build_api_user_model(path_to_configuration_file::String)::APIUserModel
     user_json_dictionary = JSON.parsefile(path_to_configuration_file)
 
     # does the user dictionary contain the correct keys?
-    if (check_if_user_dictionary_contains_correct_keys(user_json_dictionary) == false)
+    if (_check_if_user_dictionary_contains_correct_keys(user_json_dictionary) == false)
         throw(error("error: missing keys in user configuration dictionary"))
     end
 

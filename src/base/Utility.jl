@@ -1,4 +1,4 @@
-function process_raw_csv_api_data(api_call_raw_data::String)
+function _process_raw_csv_api_data(api_call_raw_data::String)
 
     # check: do we have an empty string?
     # check: legit string?
