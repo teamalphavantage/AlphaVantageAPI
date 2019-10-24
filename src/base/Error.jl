@@ -13,15 +13,6 @@ end
     _is_valid_json(raw_string::String)::Bool
 
 Checks to see if the input string is a valid JSON structure. Returns true indicating valid JSON, false otherwise.
-
-# Examples
-```jldoctest
-julia> test_data = "{\"symbol_array\":[\"AAPL\",\"MSFT\"]}"
-"{\"symbol_array\":[\"AAPL\",\"MSFT\"]}"
-
-julia> is_valid_json(test_data)
-true
-```
 """
 function _is_valid_json(raw_string::String)::Bool
 

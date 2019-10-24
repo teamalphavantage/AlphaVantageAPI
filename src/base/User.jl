@@ -17,6 +17,12 @@ function _check_if_user_dictionary_contains_correct_keys(user_data_dictionary::D
     return true
 end
 
+# -- PUBLIC METHODS HERE ------------------------------------------------------- #
+"""
+    build_api_user_model(path) -> APIUserModel
+
+Returns double the number `x` plus `1`.
+"""
 function build_api_user_model(path_to_configuration_file::String)::APIUserModel
 
     # some users checks -
