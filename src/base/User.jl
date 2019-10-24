@@ -21,7 +21,8 @@ end
 """
     build_api_user_model(path) -> APIUserModel
 
-Returns double the number `x` plus `1`.
+Takes a path to the JSON configuration files. Returns an APIUserModel object
+holding the user email and AlphaVantage API key
 """
 function build_api_user_model(path_to_configuration_file::String)::APIUserModel
 
