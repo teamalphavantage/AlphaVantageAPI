@@ -1,4 +1,4 @@
-function _process_raw_csv_api_data(api_call_raw_data::String)
+function _process_raw_csv_api_data(api_call_raw_data::String)::(Union{T, Nothing} where T<:Any)
 
     # check: do we have an empty string?
     # check: legit string?
@@ -12,14 +12,14 @@ function _process_raw_csv_api_data(api_call_raw_data::String)
             error_message = api_data_dictionary["Error Message"]
 
             # throw -
-            throw(error(error_message))
+            return Result{AVKError}(AVKError(error_message))
         else
 
             # formulate an error message -
             error_message = "Error: CSV type returns JSON without error message"
 
             # throw -
-            throw(error(error_message))
+            return Result{AVKError}(AVKError(error_message))
         end
     end
 
@@ -33,5 +33,5 @@ function _process_raw_csv_api_data(api_call_raw_data::String)
     sorted_data_table = tmp_data_table[idx_sort,:]
 
     # return the sorted table -
-    return sorted_data_table
+    return Return{DataFrame}(sorted_data_table)
 end
