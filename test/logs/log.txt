@@ -2,3 +2,5 @@
 └ @ AlphaVantage /Users/jeffreyvarner/Desktop/teamalphavantage/AlphaVantageAPI/src/base/Log.jl:14
 ┌ Debug: 2019-11-13T17:36:20.614::teamalphavantage@gmail.com::https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=aapl&apikey=SKHF9DT43T4S8IR6&datatype=json&outputsize=compact
 └ @ AlphaVantage /Users/jeffreyvarner/Desktop/teamalphavantage/AlphaVantageAPI/src/base/Log.jl:14
+┌ Debug: 2019-11-13T19:01:18.197::teamalphavantage@gmail.com::https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=aapl&apikey=SKHF9DT43T4S8IR6&datatype=json&outputsize=compact
+└ @ AlphaVantage /Users/jeffreyvarner/Desktop/julia_work/AlphaVantageAPI/src/base/Log.jl:14

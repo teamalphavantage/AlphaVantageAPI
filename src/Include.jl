@@ -20,3 +20,4 @@ include("./base/Log.jl")
 
 # STS code includes go here -
 include("./sts_functions/STSDaily.jl")
+include("./sts_functions/STSMonthly.jl")
