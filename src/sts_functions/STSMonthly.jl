@@ -23,6 +23,7 @@ function execute_sts_monthly_api_call(user_model::AVKUserModel, stock_symbol::St
     api_key = user_model.alphavantage_api_key
 
     #use alpha_vantage_api to access data change function to monthly in this case
+    #change this line for different time periods
     url = "$(alphavantage_api_url_string)?function=TIME_SERIES_MONTHLy&symbol=$(stock_symbol)&apikey=$(api_key)&datatype=$(string(data_type))&outputsize=$(string(outputsize))"
     api_call_result = _http_get_call_with_url(url)
     if (typeof(api_call_result.value) == AVKError)
@@ -30,6 +31,7 @@ function execute_sts_monthly_api_call(user_model::AVKUserModel, stock_symbol::St
     end#keep the same as daily call
 
     #check that result value is a string
+    #this is also new but doesn't change between time periods
     if (typeof(api_call_result.value) isa String == false)
         println("Call result is not valid type")#error from not correct data output
     else
@@ -42,6 +44,7 @@ function execute_sts_monthly_api_call(user_model::AVKUserModel, stock_symbol::St
     end
     if (data_type == :json)
         #process json
+        #this string line should match the .json of the type we are calling
         data_series_key = "Monthly Time Series"
         return _process_raw_json_api_data_sts(api_call_raw_data, data_series_key)
 
