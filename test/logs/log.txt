@@ -4,3 +4,91 @@
 └ @ AlphaVantage /Users/jeffreyvarner/Desktop/teamalphavantage/AlphaVantageAPI/src/base/Log.jl:14
 ┌ Debug: 2019-11-13T19:01:18.197::teamalphavantage@gmail.com::https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=aapl&apikey=SKHF9DT43T4S8IR6&datatype=json&outputsize=compact
 └ @ AlphaVantage /Users/jeffreyvarner/Desktop/julia_work/AlphaVantageAPI/src/base/Log.jl:14
+┌ Debug: 2019-11-19T14:14:39.239::teamalphavantage@gmail.com::https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=aapl&apikey=SKHF9DT43T4S8IR6&datatype=json&outputsize=compact
+└ @ AlphaVantage C:\Users\tigra\github\AlphaVantageAPI\src\base\Log.jl:14
+┌ Debug: 2019-11-19T14:14:42.514::teamalphavantage@gmail.com::https://www.alphavantage.co/query?function=TIME_SERIES_MONTHLy&symbol=aapl&apikey=SKHF9DT43T4S8IR6&datatype=json&outputsize=compact
+└ @ AlphaVantage C:\Users\tigra\github\AlphaVantageAPI\src\base\Log.jl:14
+┌ Debug: 2019-11-19T14:17:26.275::teamalphavantage@gmail.com::https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=aapl&apikey=SKHF9DT43T4S8IR6&datatype=json&outputsize=compact
+└ @ AlphaVantage C:\Users\tigra\github\AlphaVantageAPI\src\base\Log.jl:14
+┌ Debug: 2019-11-19T14:17:29.845::teamalphavantage@gmail.com::https://www.alphavantage.co/query?function=TIME_SERIES_MONTHLy&symbol=aapl&apikey=SKHF9DT43T4S8IR6&datatype=json&outputsize=compact
+└ @ AlphaVantage C:\Users\tigra\github\AlphaVantageAPI\src\base\Log.jl:14
+┌ Debug: 2019-11-19T14:19:02.017::teamalphavantage@gmail.com::https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=aapl&apikey=SKHF9DT43T4S8IR6&datatype=json&outputsize=compact
+└ @ AlphaVantage C:\Users\tigra\github\AlphaVantageAPI\src\base\Log.jl:14
+┌ Debug: 2019-11-19T14:19:03.402::teamalphavantage@gmail.com::https://www.alphavantage.co/query?function=TIME_SERIES_MONTHLy&symbol=aapl&apikey=SKHF9DT43T4S8IR6&datatype=json&outputsize=compact
+└ @ AlphaVantage C:\Users\tigra\github\AlphaVantageAPI\src\base\Log.jl:14
+┌ Debug: 2019-11-22T14:20:51.649::teamalphavantage@gmail.com::https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=aapl&apikey=SKHF9DT43T4S8IR6&datatype=json&outputsize=compact
+└ @ AlphaVantage C:\Users\tigra\github\AlphaVantageAPI\src\base\Log.jl:14
+┌ Debug: 2019-11-22T14:20:53.045::teamalphavantage@gmail.com::https://www.alphavantage.co/query?function=TIME_SERIES_MONTHLy&symbol=aapl&apikey=SKHF9DT43T4S8IR6&datatype=json&outputsize=compact
+└ @ AlphaVantage C:\Users\tigra\github\AlphaVantageAPI\src\base\Log.jl:14
+┌ Debug: 2019-11-22T14:22:56.961::teamalphavantage@gmail.com::https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=aapl&apikey=SKHF9DT43T4S8IR6&datatype=json&outputsize=compact
+└ @ AlphaVantage C:\Users\tigra\github\AlphaVantageAPI\src\base\Log.jl:14
+┌ Debug: 2019-11-22T14:22:58.302::teamalphavantage@gmail.com::https://www.alphavantage.co/query?function=TIME_SERIES_MONTHLy&symbol=aapl&apikey=SKHF9DT43T4S8IR6&datatype=json&outputsize=compact
+└ @ AlphaVantage C:\Users\tigra\github\AlphaVantageAPI\src\base\Log.jl:14
+┌ Debug: 2019-11-22T14:25:08.968::teamalphavantage@gmail.com::https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=aapl&apikey=SKHF9DT43T4S8IR6&datatype=json&outputsize=compact
+└ @ AlphaVantage C:\Users\tigra\github\AlphaVantageAPI\src\base\Log.jl:14
+┌ Debug: 2019-11-22T14:25:12.309::teamalphavantage@gmail.com::https://www.alphavantage.co/query?function=TIME_SERIES_MONTHLy&symbol=aapl&apikey=SKHF9DT43T4S8IR6&datatype=json&outputsize=compact
+└ @ AlphaVantage C:\Users\tigra\github\AlphaVantageAPI\src\base\Log.jl:14
+┌ Debug: 2019-11-22T14:27:10.857::teamalphavantage@gmail.com::https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=aapl&apikey=SKHF9DT43T4S8IR6&datatype=json&outputsize=compact
+└ @ AlphaVantage C:\Users\tigra\github\AlphaVantageAPI\src\base\Log.jl:14
+┌ Debug: 2019-11-22T14:27:14.242::teamalphavantage@gmail.com::https://www.alphavantage.co/query?function=TIME_SERIES_MONTHLy&symbol=aapl&apikey=SKHF9DT43T4S8IR6&datatype=json&outputsize=compact
+└ @ AlphaVantage C:\Users\tigra\github\AlphaVantageAPI\src\base\Log.jl:14
+┌ Debug: 2019-11-22T14:28:30.571::teamalphavantage@gmail.com::https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=aapl&apikey=SKHF9DT43T4S8IR6&datatype=json&outputsize=compact
+└ @ AlphaVantage C:\Users\tigra\github\AlphaVantageAPI\src\base\Log.jl:14
+┌ Debug: 2019-11-22T14:28:32.141::teamalphavantage@gmail.com::https://www.alphavantage.co/query?function=TIME_SERIES_MONTHLy&symbol=aapl&apikey=SKHF9DT43T4S8IR6&datatype=json&outputsize=compact
+└ @ AlphaVantage C:\Users\tigra\github\AlphaVantageAPI\src\base\Log.jl:14
+┌ Debug: 2019-12-04T16:56:18.187::teamalphavantage@gmail.com::https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=aapl&apikey=SKHF9DT43T4S8IR6&datatype=json&outputsize=compact
+└ @ AlphaVantage C:\Users\tigra\github\AlphaVantageAPI\src\base\Log.jl:14
+┌ Debug: 2019-12-04T18:32:38.191::teamalphavantage@gmail.com::https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=aapl&apikey=SKHF9DT43T4S8IR6&datatype=json&outputsize=compact
+└ @ AlphaVantage C:\Users\tigra\github\AlphaVantageAPI\src\base\Log.jl:14
+┌ Debug: 2019-12-04T18:32:40.92::teamalphavantage@gmail.com::https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&symbol=aapl&apikey=SKHF9DT43T4S8IR6&datatype=json&outputsize=compact
+└ @ AlphaVantage C:\Users\tigra\github\AlphaVantageAPI\src\base\Log.jl:14
+┌ Debug: 2019-12-04T18:35:14.349::teamalphavantage@gmail.com::https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=aapl&apikey=SKHF9DT43T4S8IR6&datatype=json&outputsize=compact
+└ @ AlphaVantage C:\Users\tigra\github\AlphaVantageAPI\src\base\Log.jl:14
+┌ Debug: 2019-12-04T18:35:17.679::teamalphavantage@gmail.com::https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&symbol=aapl&apikey=SKHF9DT43T4S8IR6&datatype=json&outputsize=compact
+└ @ AlphaVantage C:\Users\tigra\github\AlphaVantageAPI\src\base\Log.jl:14
+┌ Debug: 2019-12-04T18:39:27.688::teamalphavantage@gmail.com::https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=aapl&apikey=SKHF9DT43T4S8IR6&datatype=json&outputsize=compact
+└ @ AlphaVantage C:\Users\tigra\github\AlphaVantageAPI\src\base\Log.jl:14
+┌ Debug: 2019-12-04T18:39:29.332::teamalphavantage@gmail.com::https://www.alphavantage.co/query?function=TIME_SERIES_MONTHLy&symbol=aapl&apikey=SKHF9DT43T4S8IR6&datatype=json&outputsize=compact
+└ @ AlphaVantage C:\Users\tigra\github\AlphaVantageAPI\src\base\Log.jl:14
+┌ Debug: 2019-12-04T18:59:43.255::teamalphavantage@gmail.com::https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=aapl&apikey=SKHF9DT43T4S8IR6&datatype=json&outputsize=compact
+└ @ AlphaVantage C:\Users\tigra\github\AlphaVantageAPI\src\base\Log.jl:14
+┌ Debug: 2019-12-04T18:59:44.793::teamalphavantage@gmail.com::https://www.alphavantage.co/query?function=TIME_SERIES_MONTHLy&symbol=aapl&apikey=SKHF9DT43T4S8IR6&datatype=json&outputsize=compact
+└ @ AlphaVantage C:\Users\tigra\github\AlphaVantageAPI\src\base\Log.jl:14
+┌ Debug: 2019-12-04T19:03:26.194::teamalphavantage@gmail.com::https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=aapl&apikey=SKHF9DT43T4S8IR6&datatype=json&outputsize=compact
+└ @ AlphaVantage C:\Users\tigra\github\AlphaVantageAPI\src\base\Log.jl:14
+┌ Debug: 2019-12-04T19:03:27.719::teamalphavantage@gmail.com::https://www.alphavantage.co/query?function=TIME_SERIES_MONTHLy&symbol=aapl&apikey=SKHF9DT43T4S8IR6&datatype=json&outputsize=compact
+└ @ AlphaVantage C:\Users\tigra\github\AlphaVantageAPI\src\base\Log.jl:14
+┌ Debug: 2019-12-04T19:04:18.311::teamalphavantage@gmail.com::https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=aapl&apikey=SKHF9DT43T4S8IR6&datatype=json&outputsize=compact
+└ @ AlphaVantage C:\Users\tigra\github\AlphaVantageAPI\src\base\Log.jl:14
+┌ Debug: 2019-12-04T19:04:19.955::teamalphavantage@gmail.com::https://www.alphavantage.co/query?function=TIME_SERIES_MONTHLy&symbol=aapl&apikey=SKHF9DT43T4S8IR6&datatype=json&outputsize=compact
+└ @ AlphaVantage C:\Users\tigra\github\AlphaVantageAPI\src\base\Log.jl:14
+┌ Debug: 2019-12-04T19:13:19.497::teamalphavantage@gmail.com::https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=aapl&apikey=SKHF9DT43T4S8IR6&datatype=json&outputsize=compact
+└ @ AlphaVantage C:\Users\tigra\github\AlphaVantageAPI\src\base\Log.jl:14
+┌ Debug: 2019-12-04T19:13:21.238::teamalphavantage@gmail.com::https://www.alphavantage.co/query?function=TIME_SERIES_MONTHLy&symbol=aapl&apikey=SKHF9DT43T4S8IR6&datatype=json&outputsize=compact
+└ @ AlphaVantage C:\Users\tigra\github\AlphaVantageAPI\src\base\Log.jl:14
+┌ Debug: 2019-12-04T19:16:15.423::teamalphavantage@gmail.com::https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=aapl&apikey=SKHF9DT43T4S8IR6&datatype=json&outputsize=compact
+└ @ AlphaVantage C:\Users\tigra\github\AlphaVantageAPI\src\base\Log.jl:14
+┌ Debug: 2019-12-04T19:16:17.061::teamalphavantage@gmail.com::https://www.alphavantage.co/query?function=TIME_SERIES_MONTHLy&symbol=aapl&apikey=SKHF9DT43T4S8IR6&datatype=json&outputsize=compact
+└ @ AlphaVantage C:\Users\tigra\github\AlphaVantageAPI\src\base\Log.jl:14
+┌ Debug: 2019-12-04T19:17:54.141::teamalphavantage@gmail.com::https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=aapl&apikey=SKHF9DT43T4S8IR6&datatype=json&outputsize=compact
+└ @ AlphaVantage C:\Users\tigra\github\AlphaVantageAPI\src\base\Log.jl:14
+┌ Debug: 2019-12-04T19:17:55.791::teamalphavantage@gmail.com::https://www.alphavantage.co/query?function=TIME_SERIES_MONTHLy&symbol=aapl&apikey=SKHF9DT43T4S8IR6&datatype=json&outputsize=compact
+└ @ AlphaVantage C:\Users\tigra\github\AlphaVantageAPI\src\base\Log.jl:14
+┌ Debug: 2019-12-04T19:19:28.754::teamalphavantage@gmail.com::https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=aapl&apikey=SKHF9DT43T4S8IR6&datatype=json&outputsize=compact
+└ @ AlphaVantage C:\Users\tigra\github\AlphaVantageAPI\src\base\Log.jl:14
+┌ Debug: 2019-12-04T19:21:46.351::teamalphavantage@gmail.com::https://www.alphavantage.co/query?function=TIME_SERIES_MONTHLy&symbol=aapl&apikey=SKHF9DT43T4S8IR6&datatype=json&outputsize=compact
+└ @ AlphaVantage C:\Users\tigra\github\AlphaVantageAPI\src\base\Log.jl:14
+┌ Debug: 2019-12-04T19:27:13.658::teamalphavantage@gmail.com::https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=aapl&apikey=SKHF9DT43T4S8IR6&datatype=json&outputsize=compact
+└ @ AlphaVantage C:\Users\tigra\github\AlphaVantageAPI\src\base\Log.jl:14
+┌ Debug: 2019-12-04T19:27:15.198::teamalphavantage@gmail.com::https://www.alphavantage.co/query?function=TIME_SERIES_MONTHLy&symbol=aapl&apikey=SKHF9DT43T4S8IR6&datatype=json&outputsize=compact
+└ @ AlphaVantage C:\Users\tigra\github\AlphaVantageAPI\src\base\Log.jl:14
+┌ Debug: 2019-12-04T19:27:16.9::teamalphavantage@gmail.com::https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&symbol=aapl&apikey=SKHF9DT43T4S8IR6&datatype=json&outputsize=compact
+└ @ AlphaVantage C:\Users\tigra\github\AlphaVantageAPI\src\base\Log.jl:14
+┌ Debug: 2019-12-04T19:35:55.709::teamalphavantage@gmail.com::https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=aapl&apikey=SKHF9DT43T4S8IR6&datatype=json&outputsize=compact
+└ @ AlphaVantage C:\Users\tigra\github\AlphaVantageAPI\src\base\Log.jl:14
+┌ Debug: 2019-12-04T19:35:57.452::teamalphavantage@gmail.com::https://www.alphavantage.co/query?function=TIME_SERIES_MONTHLy&symbol=aapl&apikey=SKHF9DT43T4S8IR6&datatype=json&outputsize=compact
+└ @ AlphaVantage C:\Users\tigra\github\AlphaVantageAPI\src\base\Log.jl:14
+┌ Debug: 2019-12-04T19:35:58.779::teamalphavantage@gmail.com::https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&symbol=aapl&apikey=SKHF9DT43T4S8IR6&datatype=json&outputsize=compact
+└ @ AlphaVantage C:\Users\tigra\github\AlphaVantageAPI\src\base\Log.jl:14
+┌ Debug: 2019-12-04T19:36:55.102::tm545@cornell.edu::https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&symbol=aapl&apikey=4X7XF5R24FOYA9Y0&datatype=json&outputsize=compact
+└ @ AlphaVantage C:\Users\tigra\github\AlphaVantageAPI\src\base\Log.jl:14
