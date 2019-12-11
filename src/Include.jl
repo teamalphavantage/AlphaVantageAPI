@@ -19,6 +19,7 @@ include("./base/Handlers.jl")
 include("./base/Log.jl")
 
 # STS code includes go here -
+include("./sts_functions/STSweekly.jl")
 include("./sts_functions/STSDaily.jl")
 include("./sts_functions/STSMonthly.jl")
 include("./sts_functions/STS_adjusted_daily.jl")

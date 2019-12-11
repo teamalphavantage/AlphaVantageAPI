@@ -2,6 +2,7 @@ using AlphaVantage
 using Test
 using DataFrames
 using Logging
+using JSON
 
 # -- User creation tests ------------------------------------------------------- #
 function build_api_user_model_test()
@@ -19,8 +20,10 @@ function build_api_user_model_test()
     user_model = user_model_result.value
     user_email = user_model.alphavantage_api_email
 
-    # is the user email teamalphavantage@gmail.com?
-    if (user_email == "jt845@cornell.edu")
+    # is the user email the same as in Configuration.json?
+    user_json_dictionary = JSON.parsefile(path_to_config_file)
+    alpha_vantage_api_email = user_json_dictionary["user_data"]["alpha_vantage_api_email"]
+    if (user_email == alpha_vantage_api_email)
         return true
     end
     @show user_model
@@ -306,7 +309,6 @@ end
 
 
 #------------------------------------------------------------------------------- #
-
 @testset "user_test_set" begin
     @test build_api_user_model_test() == true
 end
